@@ -71,23 +71,23 @@ if prompt := st.chat_input(disabled=not replicate_api):
         st.write(prompt)
 
 def laris():
-    image = Image.open('C:\Streamlit\photo\grafik.png')
+    image = Image.open("photo/grafik.png")
     st.image(image)
 
 def transaksi_tiap_bulan():
-    image = Image.open('C:\Streamlit\photo\grafik1.png')
+    image = Image.open("photo/grafik1.png")
     st.image(image)
 
 def transaksi_tiap_hari():
-    image = Image.open('C:\Streamlit\photo\grafik2.png')
+    image = Image.open("photo/grafik2.png")
     st.image(image)
 
 def transaksi_tiap_jam():
-    image = Image.open('C:\Streamlit\photo\grafik3.png')
+    image = Image.open("photo/grafik3.png")
     st.image(image)
 
 def transaksi():
-    image = Image.open('C:\Streamlit\photo\grafik4.png')
+    image = Image.open("photo/grafik4.png")
     st.image(image)
 
 # Generate a new response if last message is not from assistant

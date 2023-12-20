@@ -8,7 +8,7 @@ st.markdown("<h3 style='text-align: center; color: black;'>Analisis Pola Perilak
 st.sidebar.success("Selamat datang di halaman analisis😆!")
 
 #load dataset 
-df = pd.read_csv("C:\Streamlit\data\item.csv")
+df = pd.read_csv("item.csv")
 
 #mengubah format pada kolom date_time menjadi tipe data datetime
 df['date_time'] = pd.to_datetime(df['date_time'], format="%d-%m-%Y %H:%M")

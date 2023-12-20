@@ -13,7 +13,7 @@ background-color: rgba(0,0,0,0);
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 from PIL import Image
-image = Image.open('C:\Streamlit\photo\judul.png')
+image = Image.open("photo/judul.png")
 st.image(image)
 
 #st.markdown("<h1 style='text-align: center; color: black;'>Analisis Pola Perilaku Belanja Konsumen di Sebuah Supermarket dengan Menggunakan Algoritma Apriori</h1>", unsafe_allow_html=True)
